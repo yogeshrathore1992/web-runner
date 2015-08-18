@@ -5,4 +5,4 @@ java:
 install: mvn install
 branches:
  only:
- - dev
+ - master
