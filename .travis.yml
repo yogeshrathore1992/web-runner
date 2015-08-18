@@ -2,9 +2,7 @@ sudo: true
 language: java
 java:
  - 1.7
-script: "mvn install"
-install: sudo apt-get install finger
-script: finger
+install: mvn install
 branches:
  only:
  - master
